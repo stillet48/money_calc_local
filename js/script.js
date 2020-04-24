@@ -12,7 +12,7 @@ let dbOperation =JSON.parse(localStorage.getItem('calc')) || [];
 
 if (localStorage.getItem('calc')){
     dbOperation = JSON.parse(localStorage.getItem('calc'));
-}
+} 
 
 const renderOperation = (operation) => {
 
